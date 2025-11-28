@@ -1,0 +1,31 @@
+:root {
+    /* Paleta de colores */
+    --primary: #B19CD9;
+    /* Lila */
+    --secondary: #D69264;
+    /* Terracota */
+    --accent: #F4D03F;
+    /* Copal */
+    --text: #4A3B45;
+    /* Piedra */
+    --background: #FFF0F5;
+    /* Crema */
+    --surface: #FFFFFF;
+    /* Blanco */
+}
+
+/* Estilos Generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lora', serif;
+}
