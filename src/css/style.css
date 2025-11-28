@@ -29,6 +29,11 @@ h2,
 h3 {
     font-family: 'Lora', serif;
 }
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
 
 /* Header y Navegación */
 header {
@@ -223,4 +228,20 @@ perfil-card {
     margin: 0.5rem 0 1.5rem 0;
     font-size: 0.85rem;
     color: #888;
+}
+footer {
+    background-color: var(--primary);
+    color: var(--surface);
+    padding: 3rem 1rem;
+    margin-top: 2 rem;
+    text-align: center;
+}
+
+.footer-contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
 }
