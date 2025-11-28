@@ -29,6 +29,7 @@ h2,
 h3 {
     font-family: 'Lora', serif;
 }
+
 /* Header y Navegación */
 header {
     background-color: var(--surface);
@@ -84,6 +85,11 @@ nav a {
     font-size: 2.2rem;
     margin-bottom: 1rem;
     line-height: 1.2;
+}
+
+.texto-hero em {
+    color: var(--secondary);
+    font-style: italic;
 }
 
 .subtitulo {
@@ -147,6 +153,13 @@ nav a {
     width: 100%;
 }
 
+.icon-large {
+    font-size: 2.5rem;
+    color: var(--primary);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
 .card-imagen span {
     display: block;
     color: var(--secondary);
@@ -161,3 +174,23 @@ nav a {
     display: block;
 }
 
+/* Sobre Nosotros */
+.sobre-nosotros {
+    padding: 4rem 2rem;
+    background-color: var(--background);
+    text-align: center;
+}
+
+.sobre-nosotros h2 {
+    color: var(--primary);
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.equipo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
